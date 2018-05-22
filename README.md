@@ -1,3 +1,9 @@
+# React Learning
+This is my repo to contain learning React16 from https://www.udemy.com/react-the-complete-guide-incl-redux/
+
+
+
+# Generated README below
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
