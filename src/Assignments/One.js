@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const UserInput = (props) => {
   const style = {
     border: '2px solid blue',
@@ -8,8 +7,6 @@ const UserInput = (props) => {
   return (
     <input style={style} type="text" onChange={props.changed}/>
   )
-
-
 }
 
 const UserOutput = (props) => {

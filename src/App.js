@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person.js';
 import {UserInput, UserOutput} from './Assignments/One.js';
+import {AssignmentTwoComponent} from './Assignments/Two.js';
 
 class App extends Component {
   state = {
@@ -74,6 +75,9 @@ class App extends Component {
       <UserOutput userName={this.state.userNames[0]} contentTwo={this.state.groundControlMessage}/>
       <UserOutput userName={this.state.userNames[1]} contentTwo={this.state.majorTomMessage}/>
       <button onClick={ this.groundControlHandler.bind(this) }> Next lyric </button>
+      <hr/>
+      <h1> Assignment2 </h1>
+      <AssignmentTwoComponent/>
       </div>
 
     );
