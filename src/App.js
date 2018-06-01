@@ -3,6 +3,7 @@ import './App.css';
 import Person from './Person/Person.js';
 import {UserInput, UserOutput} from './Assignments/One.js';
 import {AssignmentTwoComponent} from './Assignments/Two.js';
+import AssignmentFourComponent from './Assignments/Four.js';
 
 class App extends Component {
   state = {
@@ -78,6 +79,9 @@ class App extends Component {
       <hr/>
       <h1> Assignment2 </h1>
       <AssignmentTwoComponent/>
+      <hr/>
+      <h1> Assignment4 </h1>
+      <AssignmentFourComponent/>
       </div>
 
     );
